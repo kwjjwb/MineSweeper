@@ -48,7 +48,7 @@ numbers = [
 # other buttons (basic, boom, flag, etc.)
 button = pg.image.load('images/button5.png')
 button = pg.transform.scale(button,(35,35))
-gorani = pg.transform.scale(pg.image.load('images/gorani.png'),(100,100))
+# gorani = pg.transform.scale(pg.image.load('images/gorani.png'),(100,100))
 # gorani = pg.image.load('images/gorani.png')
 # img_boom = pg.transform.scale(pg.image.load('images/gorani_boom.png'),(35,35))
 img_boom = pg.transform.scale(pg.image.load('images/boom.png'),(35,35))
@@ -282,7 +282,7 @@ while not done:
         elif starting_screen:
             # screen = pg.display.set_mode([500,500])
             screen.fill(white)
-            screen.blit(gorani,(300,100))
+            # screen.blit(gorani,(300,100))
             screen.blit(myfont.render('Minesweeper!',True,black),(95,125))
             screen.blit(myfont.render('Select map',True,black),(150,200))
             screen.blit(myfont.render('20 x 15 (45 mines)',True,black),(100,250))
